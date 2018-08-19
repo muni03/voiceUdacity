@@ -7,21 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EA6CC0B22094B86C004A9323 /* playsoundsviewcontroller-audio.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6CC0B12094B86C004A9323 /* playsoundsviewcontroller-audio.swift */; };
 		EA80EB112092234700A38B77 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA80EB102092234700A38B77 /* AppDelegate.swift */; };
-		EA80EB132092234700A38B77 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA80EB122092234700A38B77 /* ViewController.swift */; };
+		EA80EB132092234700A38B77 /* RecordSoundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA80EB122092234700A38B77 /* RecordSoundsViewController.swift */; };
 		EA80EB162092234700A38B77 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA80EB142092234700A38B77 /* Main.storyboard */; };
 		EA80EB182092234800A38B77 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA80EB172092234800A38B77 /* Assets.xcassets */; };
 		EA80EB1B2092234800A38B77 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA80EB192092234800A38B77 /* LaunchScreen.storyboard */; };
+		EA936CC62093B6C400EEAFCD /* PlaySoundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA936CC52093B6C400EEAFCD /* PlaySoundsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EA6CC0B12094B86C004A9323 /* playsoundsviewcontroller-audio.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "playsoundsviewcontroller-audio.swift"; sourceTree = "<group>"; };
 		EA80EB0D2092234700A38B77 /* voiceUdacity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = voiceUdacity.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA80EB102092234700A38B77 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EA80EB122092234700A38B77 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EA80EB122092234700A38B77 /* RecordSoundsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordSoundsViewController.swift; sourceTree = "<group>"; };
 		EA80EB152092234700A38B77 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EA80EB172092234800A38B77 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EA80EB1A2092234800A38B77 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EA80EB1C2092234800A38B77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA936CC52093B6C400EEAFCD /* PlaySoundsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaySoundsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +59,13 @@
 			isa = PBXGroup;
 			children = (
 				EA80EB102092234700A38B77 /* AppDelegate.swift */,
-				EA80EB122092234700A38B77 /* ViewController.swift */,
+				EA80EB122092234700A38B77 /* RecordSoundsViewController.swift */,
 				EA80EB142092234700A38B77 /* Main.storyboard */,
 				EA80EB172092234800A38B77 /* Assets.xcassets */,
 				EA80EB192092234800A38B77 /* LaunchScreen.storyboard */,
 				EA80EB1C2092234800A38B77 /* Info.plist */,
+				EA936CC52093B6C400EEAFCD /* PlaySoundsViewController.swift */,
+				EA6CC0B12094B86C004A9323 /* playsoundsviewcontroller-audio.swift */,
 			);
 			path = voiceUdacity;
 			sourceTree = "<group>";
@@ -135,8 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EA80EB132092234700A38B77 /* ViewController.swift in Sources */,
+				EA80EB132092234700A38B77 /* RecordSoundsViewController.swift in Sources */,
+				EA936CC62093B6C400EEAFCD /* PlaySoundsViewController.swift in Sources */,
 				EA80EB112092234700A38B77 /* AppDelegate.swift in Sources */,
+				EA6CC0B22094B86C004A9323 /* playsoundsviewcontroller-audio.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
